@@ -72,7 +72,5 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
-For any inquiries or support, please open an issue or contact [your-email@example.com](mailto:your-email@example.com).
-```
+For any inquiries or support, please open an issue or contact [alexot422@gmail.com](mailto:alexot422@gmail.com).
 
-Теперь ваш README файл включает все необходимые изменения, и новые строки отступлены с помощью табуляции для лучшей читаемости.
