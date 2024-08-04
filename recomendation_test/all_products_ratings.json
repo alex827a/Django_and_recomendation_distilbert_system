@@ -1,0 +1,402 @@
+[
+    {
+        "product_name": "HUAWEI Matebook D16, Notebook, mit 16 Zoll Display, Intel® Core™ i5,i5-12450H Prozessor, 16 GB RAM, 512 GB SSD, Intel® UHD Graphics, Space Gray, Windows 11 Home (64 Bit)",
+        "average_rating": 3.75
+    },
+    {
+        "product_name": "HP 17-cp2334ng, Notebook, mit 17,3 Zoll Display, AMD Ryzen™ 3,7320U Prozessor, 8 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Natural Silver, Windows 11 Home (64 Bit)",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "LENOVO 15,6\" | Intel Core i5 12500H | 12 x 4.50 GHz | Win 11 Pro | 16 GB | 1000 GB, Laptop mit 15,6 Zoll Display, Intel® Core™ i5 Prozessor, 16 GB RAM, 1000 GB SSD, Schwarz",
+        "average_rating": 4.3
+    },
+    {
+        "product_name": "MICROSOFT Surface Laptop 5, Notebook, mit 15 Zoll Display Touchscreen, Intel® Core™ i7,i7-1255U (evo) Prozessor, 8 GB RAM, 256 GB SSD, Intel® Iris® Xe, Platin, Windows 11 Home (64 Bit)",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "HP 17,3\" | N4120 | 4 x 2.60 GHz | Win 11 Pro, Notebook mit 17,3 Zoll Display, Intel® Celeron® Prozessor, 16 GB RAM, 512 GB SSD, Schwarz",
+        "average_rating": 4.25
+    },
+    {
+        "product_name": "LENOVO 17,3\" | U300 | 5 x 4.40 GHz | Win11, Notebook mit 17,3 Zoll Display, Intel®, 24 GB RAM, 1000 GB SSD, Schwarz",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "LENOVO V15-IJL | Laptop | 15,6\" | Intel N4500 2 x 2.80 GHz | Windows 11 Pro, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 16 GB RAM, 512 GB SSD, Schwarz",
+        "average_rating": 4.4
+    },
+    {
+        "product_name": "HP 17,3\" | N4120 | 4 x 2.60 GHz | Win 11 Pro, Notebook mit 17,3 Zoll Display, Intel® Celeron® Prozessor, 16 GB RAM, 1000 GB SSD, Schwarz",
+        "average_rating": 4.4
+    },
+    {
+        "product_name": "HP 15,6\" | i5 | 4 x 4.20 GHz | Win11, Notebook mit 15,6 Zoll Display, Intel® Core™ i5 Prozessor, 16 GB RAM, 512 GB SSD, Schwarz",
+        "average_rating": 3.8
+    },
+    {
+        "product_name": "LENOVO V15 G2 IJL: Intel® Quad N5100 4x2.80 GHz, Intel UHD, 16GB, 1000GB SSD, Windows 11 Professional, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 16 GB RAM, 1000 GB SSD, Business Black",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "APPLE MacBook Air (2020), Notebook mit 13,3 Zoll Display, Apple M1 Prozessor, 8 GB RAM, 256 GB SSD, M1, Gold",
+        "average_rating": 4.15
+    },
+    {
+        "product_name": "LENOVO 15,6\" | N4500 | 2 x 2.80 GHz | Win11, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 8 GB RAM, 512 GB SSD, Schwarz",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "ACER Aspire 3 (A315-24P-R1UP), Notebook, mit 15,6 Zoll Display, AMD Ryzen™ 3,7320U Prozessor, 16 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Pure Silver, Windows 11 Home (64 Bit)",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "HP 15,6\" | i7-1255U | 10 x 4.70 GHz | Win11, Notebook mit 15,6 Zoll Display, Intel® Core™ i7 Prozessor, 16 GB RAM, 1000 GB SSD, Silber",
+        "average_rating": 3.9
+    },
+    {
+        "product_name": "MICROSOFT Surface Pro 9, 2-in-1 Tablet, mit 13 Zoll Display, Intel® Core™ i5 i5-1235U (evo) Prozessor, 8 GB RAM, 256 GB SSD, Intel® Iris® Xe, Platin, Windows 11 Home (64 Bit)",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "HP 15,6\" | i5 | 4 x 4.20 GHz | Win11, Notebook mit 15,6 Zoll Display, Intel® Core™ i5 Prozessor, 24 GB RAM, 1000 GB SSD, Schwarz",
+        "average_rating": 4.55
+    },
+    {
+        "product_name": "APPLE MacBook Air (2020), Notebook mit 13,3 Zoll Display, Apple M1 Prozessor, 8 GB RAM, 256 GB SSD, M1, Silber",
+        "average_rating": 3.95
+    },
+    {
+        "product_name": "SAMSUNG Galaxy Book4, Notebook, mit 15,6 Zoll Display, Intel® Core™ 3,100U Prozessor, 8 GB RAM, 256 GB SSD, Intel® Core™ Onboard Graphics, Gray, Windows 11 Home (64 Bit)",
+        "average_rating": 3.35
+    },
+    {
+        "product_name": "APPLE MacBook Air (2024), MRYU3D/A, Notebook, mit 15,3 Zoll Display, M3 Prozessor, 8 GB RAM, 256 GB SSD, Mitternacht, macOS",
+        "average_rating": 3.3
+    },
+    {
+        "product_name": "ASUS Vivobook 15 OLED M513UA-L1718W, Notebook, mit 15,6 Zoll Display, AMD Ryzen™ 7,5700U Prozessor, 16 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Schwarz, Windows 11 Home (64 Bit)",
+        "average_rating": 3.55
+    },
+    {
+        "product_name": "HP 17-cp2334ng, Notebook, mit 17,3 Zoll Display, AMD Ryzen™ 3,7320U Prozessor, 8 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Natural Silver, Windows 11 Home (64 Bit)",
+        "average_rating": 3.25
+    },
+    {
+        "product_name": "LENOVO 15,6\" | N4500 | 2 x 2.80 GHz | 8 GB | 256 GB | Windows 11 Pro, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 8 GB RAM, 256 GB SSD, Schwarz",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "LENOVO 17,3\" | U300 | 5 x 4.40 GHz | Win11, Notebook mit 17,3 Zoll Display, Intel®, 24 GB RAM, 2000 GB SSD, Schwarz",
+        "average_rating": 4.3
+    },
+    {
+        "product_name": "HP Laptop | 17,3\" | Intel Core i5 1335U | 10 x 4.60 GHz | Win 11 Pro, Notebook mit 17,3 Zoll Display, Intel® Core™ i5 Prozessor, 16 GB RAM, 1000 GB SSD, Silber",
+        "average_rating": 3.05
+    },
+    {
+        "product_name": "MICROSOFT Surface Pro 9, 2-in-1 Tablet, mit 13 Zoll Display, Intel® Core™ i5 i5-1235U (evo) Prozessor, 16 GB RAM, 256 GB SSD, Intel® Iris® Xe, Platin, Windows 11 Home (64 Bit)",
+        "average_rating": 3.7
+    },
+    {
+        "product_name": "ACER Aspire 5 (A515-57-53QH) mit Tastaturbeleuchtung, Notebook, mit 15,6 Zoll Display, Intel® Core™ i5,i5-12450H Prozessor, 16 GB RAM, 512 GB SSD, Intel® UHD Graphics, Steel Gray, Windows 11 Home (64 Bit)",
+        "average_rating": 3.4
+    },
+    {
+        "product_name": "HP 15s-fq0317ng, Notebook, mit 15,6 Zoll Display, Intel® Celeron®,N4120 Prozessor, 8 GB RAM, 512 GB SSD, Intel® UHD 600, Grau, Windows 11 Home (64 Bit)",
+        "average_rating": 4.45
+    },
+    {
+        "product_name": "PEAQ Classic PNB C140V-2G428D-1, Notebook, mit 14 Zoll Display, Intel® Pentium® Silver,N5030 Prozessor, 4 GB RAM, 128 GB SSD, Intel® UHD 605, Grau, Windows 11 Home S-Modus (64 Bit)",
+        "average_rating": 3.65
+    },
+    {
+        "product_name": "LENOVO V17 G4 IRU│i7-1355U│24GB RAM│1000GB NVMe, Notebook mit 17,3 Zoll Display, Intel® Core™ i7 Prozessor, 24 GB RAM, 1000 GB SSD, Iron grey",
+        "average_rating": 4.15
+    },
+    {
+        "product_name": "APPLE MacBook Air (2024), MRXV3D/A, Notebook, mit 13,6 Zoll Display, M3 Prozessor, 8 GB RAM, 256 GB SSD, Mitternacht, macOS",
+        "average_rating": 3.85
+    },
+    {
+        "product_name": "HP | 15,6\" | AMD Ryzen 5 | 6 x 4.40 GHz | Win 11 Pro, Notebook mit 15,6 Zoll Display, AMD Ryzen™ 5 Prozessor, 16 GB RAM, 1000 GB SSD, Silber",
+        "average_rating": 3.7
+    },
+    {
+        "product_name": "ASUS Zenbook 14 Flip OLED, Convertible, mit 14 Zoll Display Touchscreen, AMD Ryzen™ 9,5900HX Prozessor, 16 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Schwarz, Windows 11 Home (64 Bit)",
+        "average_rating": 3.85
+    },
+    {
+        "product_name": "LENOVO V15 G2 IJL: Intel® Quad N5100 4x2.80 GHz, Intel UHD, 8GB, 512GB SSD, Windows 11 Professional, Notebook mit 15,6 Zoll Display, Intel® N-Series Prozessor, 8 GB RAM, 512 GB SSD, Business Black",
+        "average_rating": 4.0
+    },
+    {
+        "product_name": "ACER Aspire 3 (A315-44P-R53H), Notebook, mit 15,6 Zoll Display, AMD Ryzen™ 7,5700U Prozessor, 16 GB RAM, 1 TB SSD, AMD Radeon™ Onboard Graphics, Pure Silver, Windows 11 Home (64 Bit)",
+        "average_rating": 4.5
+    },
+    {
+        "product_name": "MICROSOFT Surface Pro 9 , 2-in-1 Tablet, mit 13 Zoll Display, Intel® Core™ i7 i7-1255U (evo) Prozessor, 16 GB RAM, 256 GB SSD, Intel® Iris® Xe, Graphit, Windows 11 Home (64 Bit)",
+        "average_rating": 4.0
+    },
+    {
+        "product_name": "ACER Aspire 5 (A515-57-518G) mit Tastaturbeleuchtung, Notebook, mit 15,6 Zoll Display, Intel® Core™ i5,i5-1235U Prozessor, 16 GB RAM, 512 GB SSD, Intel® Iris® Xe, Steel Gray, Windows 11 Home (64 Bit)",
+        "average_rating": 4.25
+    },
+    {
+        "product_name": "HP 255 G10 | 15,6\" | AMD Ryzen 5 | 6 x 4.40 GHz | Win 11 Pro, Notebook mit 15,6 Zoll Display, AMD Ryzen™ 5 Prozessor, 16 GB RAM, 512 GB SSD, Silber",
+        "average_rating": 4.35
+    },
+    {
+        "product_name": "LENOVO IdeaPad 3i, Notebook, mit 15,6 Zoll Display, Intel® Core™ i3,i3-1215U Prozessor, 8 GB RAM, 512 GB SSD, Intel® UHD Graphics, Arctic Grey, Windows 11 Home (64 Bit)",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "HP Laptop 15s-fq5353ng, Notebook, mit 15,6 Zoll Display, Intel® Core™ i5,i5-1235U Prozessor, 8 GB RAM, 512 GB SSD, Intel® Iris® Xe, Natursilber, Windows 11 Home (64 Bit)",
+        "average_rating": 3.8
+    },
+    {
+        "product_name": "HP Laptop 17-cp2333ng, Notebook, mit 17,3 Zoll Display, AMD Ryzen™ 3,7320U Prozessor, 8 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Natursilber, Windows 11 Home (64 Bit)",
+        "average_rating": 4.45
+    },
+    {
+        "product_name": "LENOVO IdeaPad 5i Pro, Notebook, mit 14 Zoll Display, Intel® Core™ i5,i5-1240P Prozessor, 16 GB RAM, 512 GB SSD, Intel® Iris® Xe, Storm Grey, Windows 11 Home (64 Bit)",
+        "average_rating": 3.6
+    },
+    {
+        "product_name": "LENOVO IdeaPad 5i Pro, Notebook, mit 14 Zoll Display, Intel® Core™ i5,i5-1240P Prozessor, 16 GB RAM, 512 GB SSD, Intel® Iris® Xe, Storm Grey, Windows 11 Home (64 Bit)",
+        "average_rating": 4.4
+    },
+    {
+        "product_name": "LENOVO IdeaPad 1i, inkl. 1 Jahr Microsoft 365 Single, Notebook, mit 15,6 Zoll Display, Intel® Celeron®,N4120 Prozessor, 4 GB RAM, 128 GB eMMC, Intel® UHD 600, Cloud Grey, Windows 11 Home S-Modus (64 Bit)",
+        "average_rating": 4.0
+    },
+    {
+        "product_name": "LENOVO IdeaPad 3, Notebook, mit 17,3 Zoll Display, AMD Ryzen™ 5,5500U Prozessor, 8 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Arctic Grey, Windows 11 Home (64 Bit)",
+        "average_rating": 4.4
+    },
+    {
+        "product_name": "HP | 15,6\" | Intel N4500 | 2 x 2.80 GHz | Win 11 Pro, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 8 GB RAM, 256 GB SSD, Schwarz",
+        "average_rating": 4.3
+    },
+    {
+        "product_name": "LENOVO IdeaPad 1 15IGL7 82V70076GE, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 4 GB RAM, 128 GB SSD, Blau",
+        "average_rating": 4.45
+    },
+    {
+        "product_name": "APPLE MacBook Pro (2023), Notebook mit 16 Zoll Display, Apple M3 Pro Chip, 18 GB RAM, 18-Core GPU, 512 GB SSD, Space Schwarz",
+        "average_rating": 3.75
+    },
+    {
+        "product_name": "ACER Nitro 5 (AN515-57-57SB) mit 144 Hz Display & RGB Tastaturbeleuchtung, Gaming Notebook, mit 15,6 Zoll Display, Intel® Core™ i5,i5-11400H Prozessor, 16 GB RAM, 512 GB SSD, NVIDIA GeForce RTX™ 3060, Schwarz/Rot, Windows 11 Home (64 Bit)",
+        "average_rating": 4.35
+    },
+    {
+        "product_name": "HP 17-cp2334ng, Notebook, mit 17,3 Zoll Display, AMD Ryzen™ 3,7320U Prozessor, 8 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Natural Silver, Windows 11 Home (64 Bit)",
+        "average_rating": 4.25
+    },
+    {
+        "product_name": "MSI Katana 17 B13VFK-848, Gaming Notebook, mit 17,3 Zoll Display, Intel® Core™ i7,i7-13620H Prozessor, 16 GB RAM, 1 TB SSD, NVIDIA GeForce RTX™ 4060, Schwarz, Windows 11 (64 Bit)",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "HP 17-cp2334ng, Notebook, mit 17,3 Zoll Display, AMD Ryzen™ 3,7320U Prozessor, 8 GB RAM, 512 GB SSD, AMD Radeon™ Onboard Graphics, Natural Silver, Windows 11 Home (64 Bit)",
+        "average_rating": 3.6
+    },
+    {
+        "product_name": "HP | 15,6\" | Intel N4500 | 2 x 2.80 GHz | Win 11 Pro, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 8 GB RAM, 256 GB SSD, Schwarz",
+        "average_rating": 4.0
+    },
+    {
+        "product_name": "LENOVO 15,6\" | N4500 | 2 x 2.80 GHz | 8 GB | 256 GB | Windows 11 Pro, Notebook mit 15,6 Zoll Display, Intel® Celeron® Prozessor, 8 GB RAM, 256 GB SSD, Schwarz",
+        "average_rating": 4.3
+    },
+    {
+        "product_name": "SAMSUNG Galaxy A15 128 GB Schwarz Dual SIM",
+        "average_rating": 4.15
+    },
+    {
+        "product_name": "MOTOROLA moto e13 128 GB Cosmic Black Dual SIM",
+        "average_rating": 3.95
+    },
+    {
+        "product_name": "XIAOMI Redmi 12 128 GB Midnight Black Dual SIM",
+        "average_rating": 4.4
+    },
+    {
+        "product_name": "XIAOMI Redmi A2 32 GB Black Dual SIM",
+        "average_rating": 4.25
+    },
+    {
+        "product_name": "XIAOMI Redmi 12 128 GB Sky Blue Dual SIM",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "XIAOMI Redmi A3 64 GB Midnight Black Dual SIM",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "XIAOMI Redmi A2 32 GB Light Blue Dual SIM",
+        "average_rating": 4.3
+    },
+    {
+        "product_name": "ZTE Blade A73, 4 GB RAM + 4 GB RAM Memory Fusion 128 GB Space Black Dual SIM",
+        "average_rating": 4.0
+    },
+    {
+        "product_name": "XIAOMI Redmi 13C 256 GB Blau Dual SIM",
+        "average_rating": 4.15
+    },
+    {
+        "product_name": "BLACKVIEW A52Pro Smartphone Ohne vertrag 90Hz 6.52\" HD+ Display, Octa Core Android 13, 5180mAh 13MP+5MP Kamera 128 GB Blau Dual SIM",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "XIAOMI Redmi Note 13 4G 128 GB Gelb Dual SIM",
+        "average_rating": 3.95
+    },
+    {
+        "product_name": "OSCAL S70Pro Outdoor Handy Ohne Vertrag , 2,3GHz Octa-Core Prozessor, 6580mAh Akku, 13MP Kamera 64 GB Orange Dual SIM",
+        "average_rating": 4.3
+    },
+    {
+        "product_name": "HONOR Magic 5 Lite 5G 256 GB Emerald Green Dual SIM",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "XIAOMI Redmi A2 32 GB Light Green Dual SIM",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "OSCAL Modern8 Smartphone, MediaTek T616, Octa-Core, 6,75-Zoll-FHD-Display, 5000 mAh, 8 MP + 50 MP Kamera 256 GB Grau Dual SIM",
+        "average_rating": 3.3
+    },
+    {
+        "product_name": "SAMSUNG Galaxy A15 5G 128 GB Blue Black Dual SIM",
+        "average_rating": 3.8
+    },
+    {
+        "product_name": "SAMSUNG REFURBISHED (*) Galaxy Z Flip 3 5G 256 GB lila Dual SIM",
+        "average_rating": 3.65
+    },
+    {
+        "product_name": "BEAFON C70_EU001B 32 GB Schwarz Dual SIM",
+        "average_rating": 4.25
+    },
+    {
+        "product_name": "XIAOMI Redmi Note 13 Pro 5G 256 GB Midnight Black Dual SIM",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "XIAOMI Redmi Note 13 128 GB Midnight Black Dual SIM",
+        "average_rating": 4.3
+    },
+    {
+        "product_name": "SAMSUNG REFURBISHED (*) Galaxy Z Fold 3 5G 256 GB silber Dual SIM",
+        "average_rating": 4.45
+    },
+    {
+        "product_name": "XIAOMI Redmi 13C 128 GB Midnight Black Dual SIM",
+        "average_rating": 4.2
+    },
+    {
+        "product_name": "NOKIA C32 64 GB Rosa Dual SIM",
+        "average_rating": 4.1
+    },
+    {
+        "product_name": "SAMSUNG Galaxy S23 5G 128 GB Phantom Black Dual SIM",
+        "average_rating": 4.75
+    },
+    {
+        "product_name": "XIAOMI Redmi 12 128 GB Polar Silver Dual SIM",
+        "average_rating": 3.95
+    },
+    {
+        "product_name": "SAMSUNG Galaxy A04s 32 GB schwarz Dual SIM",
+        "average_rating": 4.65
+    },
+    {
+        "product_name": "APPLE iPhone 15 5G 128 GB Schwarz Dual SIM",
+        "average_rating": 4.05
+    },
+    {
+        "product_name": "GOOGLE Pixel 7a 128 GB Charcoal Dual SIM",
+        "average_rating": 4.15
+    },
+    {
+        "product_name": "APPLE iPhone 15 Pro Max 5G 256 GB Titan Natur Dual SIM",
+        "average_rating": 4.35
+    },
+    {
+        "product_name": "APPLE iPhone 15 Pro Max 5G 256 GB Titan Schwarz Dual SIM",
+        "average_rating": 4.05
+    },
+    {
+        "product_name": "APPLE iPhone 13 128 GB Mitternacht Dual SIM",
+        "average_rating": 3.95
+    },
+    {
+        "product_name": "APPLE iPhone 15 Pro 5G 256 GB Titan Schwarz Dual SIM",
+        "average_rating": 3.9
+    },
+    {
+        "product_name": "SAMSUNG Galaxy A15 5G 128 GB Blue Dual SIM",
+        "average_rating": 3.2
+    },
+    {
+        "product_name": "SAMSUNG REFURBISHED (*) Galaxy Z Flip 3 5G 256 GB weiß Dual SIM",
+        "average_rating": 4.5
+    },
+    {
+        "product_name": "SWISSTONE SC 230 Handy, Schwarz",
+        "average_rating": 4.0
+    },
+    {
+        "product_name": "SAMSUNG Galaxy A34 5G 128 GB Awesome Graphite Dual SIM",
+        "average_rating": 3.75
+    },
+    {
+        "product_name": "ZTE Blade A31 Lite 32 GB Blau Dual SIM",
+        "average_rating": 4.85
+    },
+    {
+        "product_name": "XIAOMI Redmi 13C 128 GB Navy Blue Dual SIM",
+        "average_rating": 3.95
+    },
+    {
+        "product_name": "BLACKVIEW Color 8 Handy Ohne Vertrag, Android 13, T616",
+        "average_rating": 3.8
+    },
+    {
+        "product_name": "SWISSTONE SC 230 Handy, Rot",
+        "average_rating": 4.7
+    },
+    {
+        "product_name": "APPLE REFURBISHED (*) iPhone 12 mini 64 GB lila Dual SIM",
+        "average_rating": 3.75
+    },
+    {
+        "product_name": "XIAOMI Redmi Note 13 Pro 5G 256 GB Midnight Black Dual SIM",
+        "average_rating": 3.9
+    },
+    {
+        "product_name": "XIAOMI Redmi A3 64 GB Forest Green Dual SIM",
+        "average_rating": 4.55
+    },
+    {
+        "product_name": "XIAOMI Redmi A3 64 GB Star Blue Dual SIM",
+        "average_rating": 4.25
+    },
+    {
+        "product_name": "NOKIA C32 64 GB Rosa Dual SIM",
+        "average_rating": 4.05
+    },
+    {
+        "product_name": "SAMSUNG Galaxy S23 5G 128 GB Phantom Black Dual SIM",
+        "average_rating": 4.65
+    },
+    {
+        "product_name": "XIAOMI Redmi 12 128 GB Polar Silver Dual SIM",
+        "average_rating": 0
+    }
+]
