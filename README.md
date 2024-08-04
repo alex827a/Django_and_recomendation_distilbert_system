@@ -52,6 +52,8 @@ Each JSON file should be named in the format `{marketplace_name}_ratings.json` a
 ## Jupyter Notebook for DistilBert Electronics Sentiment  
 In my pretrained model I used the Electronics dataset from Amazon. You can download many other datasets from here:  
 https://jmcauley.ucsd.edu/data/amazon/  
+You also can download my test model on HuggingFace. Add this model in \recomendation_test\final_model3
+alexot/DistilBert_Classification_Electronics
 ### Used Libraries:
 os  
 nltk  
