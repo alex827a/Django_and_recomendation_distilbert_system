@@ -54,6 +54,9 @@ In my pretrained model I used the Electronics dataset from Amazon. You can downl
 https://jmcauley.ucsd.edu/data/amazon/  
 You also can download my test model on HuggingFace. Add this model in \recomendation_test\final_model3
 [alexot/DistilBert_Classification_Electronics](https://huggingface.co/alexot/DistilBert_Classification_Electronics)
+
+## Marketplace example with Django rest framework
+https://github.com/alex827a/Django_rest_framework_test_marletplaces_with_db?tab=readme-ov-file
 ### Used Libraries:
 os  
 nltk  
