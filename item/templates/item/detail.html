@@ -1,0 +1,154 @@
+{% extends 'core/base.html' %}
+
+{% block title %}{{ item.name }}{% endblock %}
+
+{% block content %}
+<script>
+    function toggleEditForm(reviewId) {
+        var form = document.getElementById('edit-form-' + reviewId);
+        var comment = document.getElementById('review-comment-' + reviewId);
+        if (form.classList.contains('hidden')) {
+            form.classList.remove('hidden');
+            comment.classList.add('hidden');
+        } else {
+            form.classList.add('hidden');
+            comment.classList.remove('hidden');
+        }
+    }
+</script>
+<div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+    <div class="col-span-3">
+        {% if item.image %}
+        <div class="flex items-center justify-center bg-gray-200 rounded-xl p-4">
+            <img src="{{ item.image.url }}" class="max-h-64 object-contain">
+        </div>
+        {% endif %}
+        {% if item.description %}
+        <div class="mt-4 p-4 bg-white rounded-xl">
+            <p class="text-gray-700">
+                <strong class="text-gray-500">Description:</strong><br>
+                {{ item.description }}
+            </p>
+        </div>
+        {% endif %}
+    </div>
+    <div class="col-span-2 p-6 bg-gray-100 rounded-xl">
+        <h1 class="mb-6 text-3xl font-bold">{{ item.name }}</h1>
+        <p class="text-gray-500"><strong>Price:</strong> {{ item.price }}</p>
+        {% if item.average_rating %}
+        <p class="text-gray-500"><strong>Average Rating:</strong> {{ item.average_rating }}</p>
+        {% endif %}
+        {% if item.category %}
+        <p class="text-gray-500"><strong>Category:</strong> {{ item.category }}</p>
+        {% endif %}
+
+        {% if request.user == item.created_by %}
+        <div class="my-6 p-6 bg-white rounded-xl">
+            <p>This is your item</p>
+            <a href="{% url 'item:edit' item.id %}" class="inline-block mt-4 px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl">Edit</a>
+            <a href="{% url 'item:delete' item.id %}" class="inline-block mt-4 px-6 py-3 text-lg font-semibold bg-red-500 text-white rounded-xl">Delete</a>
+        </div>
+        {% else %}
+        <a href="#" class="inline-block mt-6 px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-teal-700">Contact seller</a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
+    <h2 class="mb-12 text-2xl text-center font-bold">Marketplace Ratings</h2>
+    <div class="space-y-4">
+        {% for item_marketplace in item_marketplaces %}
+        <div class="bg-white p-4 rounded-xl shadow">
+            <p><strong>{{ item_marketplace.marketplace.name }}</strong></p>
+            <p>Rating: {{ item_marketplace.marketplace_rating }}</p>
+            <p>Price: {{ item_marketplace.price }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
+    <h2 class="mb-12 text-2xl text-center font-bold">Related items</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for item in related_items %}
+        <div class="bg-white rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+            <a href="{% url 'item:detail' item.id %}">
+                <div class="flex items-center justify-center h-32 bg-gray-200">
+                    {% if item.image %}
+                    <img src="{{ item.image.url }}" class="w-full h-full object-contain">
+                    {% endif %}
+                </div>
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold">{{ item.name }}</h2>
+                    <p class="text-gray-500 mt-2">Price: {{ item.price }}</p>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% for review in reviews %}
+<div class="w-full mx-auto bg-white rounded-xl shadow-md overflow-hidden my-4">
+    <div class="p-4">
+        <div class="flex justify-between items-center">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Rating: {{ review.rating }}/5</div>
+            {% if user.is_authenticated and user == review.user %}
+            <button onclick="toggleEditForm('{{ review.id }}')" class="text-gray-500 hover:text-gray-700">Edit</button>
+            {% endif %}
+        </div>
+        <p id="review-comment-{{ review.id }}" class="block mt-1 text-lg leading-tight font-medium text-black text-left">{{ review.comment }}</p>
+        <p class="mt-2 text-gray-500">Reviewed by {{ review.user.username }}</p>
+
+        <!-- Скрытая форма редактирования -->
+        <div id="edit-form-{{ review.id }}" class="hidden">
+            <form action="{% url 'item:edit_review' review.id %}" method="POST">
+                {% csrf_token %}
+                <textarea name="comment" class="w-full p-2 text-gray-700 border rounded-lg focus:outline-none" rows="4">{{ review.comment }}</textarea>
+                <label for="rating" class="block mt-2 text-gray-700">Rating:</label>
+                <select id="rating" name="rating" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    <option value="1" {% if review.rating == 1 %}selected{% endif %}>1</option>
+                    <option value="2" {% if review.rating == 2 %}selected{% endif %}>2</option>
+                    <option value="3" {% if review.rating == 3 %}selected{% endif %}>3</option>
+                    <option value="4" {% if review.rating == 4 %}selected{% endif %}>4</option>
+                    <option value="5" {% if review.rating == 5 %}selected{% endif %}>5</option>
+                </select>
+                <button type="submit" class="mt-2 px-4 py-2 bg-blue-500 text-white rounded-lg">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endfor %}
+
+{% if user.is_authenticated %}
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+<form method="post" class="mt-8">
+    {% csrf_token %}
+    <div class="mb-4">
+        <label for="id_comment" class="block text-gray-700 text-sm font-bold mb-2">Your Comment:</label>
+        <textarea id="id_comment" name="comment" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+    </div>
+    <div class="mb-6">
+        <label for="id_rating" class="block text-gray-700 text-sm font-bold mb-2">Your Rating:</label>
+        <select id="id_rating" name="rating" class="shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit Review</button>
+</form>
+{% else %}
+<button onclick="location.href='{% url 'core:login' %}?next={{ request.path }}'" class="bg-blue-500 my-2 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline">Log in to leave a review</button>
+<p>Please <a href="{% url 'core:login' %}?next={{ request.path }}" class="text-blue-500 hover:text-blue-700">log in</a> to leave a review.</p>
+{% endif %}
+
+{% endblock %}
